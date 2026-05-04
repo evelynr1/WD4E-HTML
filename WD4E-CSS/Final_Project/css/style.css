@@ -1,0 +1,145 @@
+a[href="#main_content"]{
+    position: absolute;
+    
+}
+
+.offpage{
+    position: absolute;
+    left: -1000px;
+}
+
+.offpage:focus{
+    position: absolute;
+    left: 100px;
+}
+
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 125%;
+}
+
+header{
+    background-color: #DDF2D1;
+}
+
+nav{
+    background-color: #DDF2D1;
+    display: inline-block;
+    width: 80%;
+    /*background-image: src="images/two-green-amazons.jpg";
+    maybe try to find a general zoo picture and put it as background on home page?*/
+
+}
+
+main{
+    background-color: #DDF2D1;
+    font-size: 95%;
+}
+
+footer{
+    background-color: #DDF2D1;
+}
+
+nav a:hover{
+    border-style: solid;
+    border-color: #8a2be2;
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    line-height: 100px;
+    text-align: center;
+}
+
+nav a{
+    border-style: dotted;
+    border-color: #000000;
+    width: 45%;
+    margin: 0 1%;}
+
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+p{
+    line-height: 30p;
+}
+
+img{
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.aquarium{
+    border-color: #00ffff;
+    object-fit: cover;
+    margin: 30px;
+}
+
+.aviary{
+    border-color: #008000;
+    border-width: 20px;
+}
+
+.aquarium:nth-child(even){
+    border-color: #4f2d12;
+}
+
+.aquarium:hover{
+    border-width: 10px;
+    padding: 0px;
+}
+
+figure{
+    margin: 20px;
+}
+
+.aviary:hover{
+    border-width: 10px;
+    padding: 15px;
+}
+
+nav > img{
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    /* place-items: center; */
+    place-content: center;
+}
+
+.grid > figure{
+    width: 100%;
+}
+
+.grid{
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#banner{
+    border-style:double;
+    padding: none;
+    width: 98%;
+    border-radius: 50px;
+}
